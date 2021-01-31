@@ -1,0 +1,103 @@
+/*  
+    
+    Theme Name: Comus 
+    Author: Cdznd 
+    Version:1.0 
+    
+*/
+
+
+/*
+
+@font-face {
+    
+    font-family: Pt Sans;
+    src: url('/fonts/PTSans/PTSans-Regular.ttf');
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: Pt Sans;
+    src: url('/fonts/PTSans/PTSans-Bold.ttf');
+    font-weight: bold;
+
+}
+
+*/
+
+/* rgba(249, 105, 14, 1)    ECSTASY ORANGE */
+
+/* #FFA500 -> Orange Web #e59400 -> Harvest Gold #A30B37 -> Vivid Burgundy #191919 -> Eerie Black #B3BFB8 -> Ash Grey #666666 -> Dim Grey(For texts) #296Eb4 -> Spanish Blue #e9ecf5 */
+
+//SASS Variables
+
+//Fonts;
+
+$main-font:'PT Sans';
+$sec-font:'Lato';
+
+//Colors;
+
+$primary-color: rgba(249, 105, 14, 1);
+$primary-color-low:rgba(249, 105, 14,.6);
+
+$secondary-color: white;
+
+$other-color:#333333;
+
+$default-color:white;
+
+// || Title / Text
+
+$title-color:#191919;
+$subtitle-color:$primary-color;
+
+$text-color:#666666;
+$caption-color:$default-color;
+
+$title-weight:600;
+$subtitle-weight:500;
+
+$text-weight:300;
+$caption-weight:900;
+
+$fast-transition:.2s;
+$defaul-transition:.5s;
+$slow-transition: .8s;
+
+/*
+
+$nav-back-color:#F5F5F5;
+$nav-color:#191919;
+$nav-weight:700;
+
+$default-color:white;
+$color-default:black;
+
+*/
+
+// Base //
+@import "./sass/base.scss";
+
+// Layout //
+@import "./sass/layout.scss";
+
+// Modules //
+@import "./sass/module.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

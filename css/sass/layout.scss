@@ -1,0 +1,181 @@
+/* ================================================== || LAYOUT */
+
+
+/* ================================================== || CONTENT-SECTION-COMPONENTS ================================================== */
+
+.cont-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cont-section .cont-subsection {
+    margin-top: 20px;
+}
+
+
+
+
+/* ================================================== || DEFAULT-TEXT-AND-TITLES ================================================== */
+
+.title {
+
+    color: $title-color;
+    font-weight: $title-weight;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid $primary-color;
+
+}
+
+.subtitle {
+
+    color: $subtitle-color;
+    font-weight: $subtitle-weight;
+
+}
+
+.text-section {
+
+    color: $text-color;
+    font-weight: $text-weight;
+    line-height: 1.8rem;
+
+}
+
+.carousel-item img {
+
+    height: 350px;
+
+}
+
+
+
+
+/* ================================================== || Backgrounds ================================================== */
+
+.gradient-lightTop {
+
+    background-image: linear-gradient(to bottom, #f2f3f4, #f5f6f7, #f9f9fa, #fcfcfc, #fff) !important;
+
+}
+
+.gradient-lightBottom {
+
+    background-image: linear-gradient(to Top, #f2f3f4, #f5f6f7, #f9f9fa, #fcfcfc, #fff) !important;
+
+}
+
+
+
+
+/* ================================================== || OVERLAY ================================================== */
+
+.overlay-dark {
+
+    background: rgba(19, 19, 19, 0.6);
+    z-index: 0;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+.light-border {
+
+    border: 5px solid rgba(255, 255, 255, 0.007);
+
+}
+
+
+
+
+/* ================================================== || DEFAULT BTNS ================================================== */
+
+.btn.btn-page {
+    
+    transition: 0.5s;
+    color: white;
+
+    background-color:$primary-color;
+    border: 1px solid $primary-color-low;
+}
+
+.btn.btn-page:hover {
+
+    background-color: transparent;
+    color: black;
+
+}
+
+.btn.btn-page.btn-product {
+
+    margin-top: 10px;
+    width: 7.5rem;
+
+}
+
+
+/* BTN TOP-BACK */
+
+.btn.btn-top-back {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: $primary-color;
+    color: white;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.btn.btn-top-back:hover{
+
+    background-color: rgb(215,215,215);
+
+}
+
+.btn.btn-top-back:focus{
+
+    outline: none;
+    border: none;
+    box-shadow:none;
+
+}
+
+
+.btn.btn-top-back > i {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+    transition: .8s;
+
+}
+
+.btn.btn-top-back:hover i{
+
+    color: $primary-color;
+
+}
+
+.btn.btn-top-back.show {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+/* ================================================== || OTHERS ================================================== */
+
+html.html-no-scroll{
+
+    overflow: hidden;
+
+    margin: 0; 
+    height: 100%;
+
+}
+
+.none{
+
+    display: none;
+
+}

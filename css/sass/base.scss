@@ -1,0 +1,48 @@
+/* ================================================== || BASE */
+
+/* ================================================== || HTML Reset ================================================== */
+
+/* || General styles */
+
+html {
+
+    padding: 0 !important;
+    margin: 0!important;
+    overflow-x: hidden;
+    /*--right gutter fix--*/
+    scroll-behavior: smooth;
+    min-height: 100%;
+
+}
+
+body {
+
+    overflow-x: hidden;
+    /*--right gutter fix--*/
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+ul {
+
+    padding-inline-start: 0 !important;
+    margin: 0 ;
+    list-style: none;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+header {
+
+    position: sticky;
+    top: 0px;
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 9000;
+
+}
